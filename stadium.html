@@ -1,0 +1,238 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Project</title>
+<link rel="stylesheet" href="stadiumpage.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<style>
+	p1{font-size: 15px; color:antiquewhite}
+	p {font-size: 15px; color:antiquewhite}
+	p2 {font-size: 20px; color:antiquewhite}
+	h1{font-size: 30px; color:lightblue}
+	h2{color:#f2ebd4}
+	h3{color:#1F1F1E}</style>
+	<img src="AFCRICHMOND.png" height="100px" width="100px ">
+</head>
+
+<body>
+    
+
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+
+<script>
+    $(document).ready(function(){
+  $("#bttn1").click(function(){
+    $("body").css("background-color","#f2ebd4");
+  });
+  $("#bttn").click(function(){
+    $("body").css("background-color", "#1F1F1E");
+  });
+});
+</script>
+    
+          
+<div class="navbar">
+    <div class="topnav-left">
+  <a href="index.html">HOME</a>
+  
+  <div class="dropdown">
+    <button class="dropbtn">LATEST 
+      <i class="fa fa-caret-down"></i>
+    </button>
+      <div>
+            
+</div>
+    <div class="dropdown-content">
+      <a href="result.html">RESULT</a>
+      <a href="transfer.html">TRANSFER</a>
+    </div>
+  </div> 
+    </div>
+    <div class="topnav-right">
+    <div class="dropdown">
+    <button class="dropbtn">OUR TEAM 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="player.html">PLAYER</a>
+      <a href="gallery.html">GALLERY</a>
+        <a href="statistic.html">STATISTIC</a>
+        <a href="stadium.html">STADIUM</a>
+    </div>
+  </div>
+    
+    <div class="dropdown">
+    <button class="dropbtn">ABOUT
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="Feedback.html">FEEDBACK</a>
+      <a href="ContactUs.html">CONTACT US</a>
+        <a href="Help and FAQs.html">HELP AND FAQs</a>
+    </div>
+  </div>
+        
+</div>
+    
+    </div>  
+    <div class="darkmode">
+            <button id="bttn">
+                <img src="moon.png" alt="buttondarkmode" width="25px" height="25px    ">
+            </button>
+        <button id="bttn1">
+                <img src="sun.png" alt="buttondarkmode" width="25px" height="25px    ">
+            </button>
+        </div>
+<!----------------This is the start of the content for HOME page------>
+	<div class="main">
+		<div class="tittle">
+		<h2><center>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  WELCOME</center></h2>
+		<h3><center>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  WELCOME</center></h3>
+	</div>
+		</div>
+    <div class="main">
+   <!----- <div class="content-one">
+      <p>
+      <img src="stad.jpg"  wid>
+      </p><br>
+		<p2><strong>ALBOSTO STADIUM<br><br></strong></p2>
+		  <p>CAPACITY&nbsp&nbsp&nbsp   180 THOUSAND<br>
+		  WORTH&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  78$ BILLION<br>
+		  BUILD ON&nbsp&nbsp&nbsp&nbsp   8/9/22<br><br>
+		</p></div>
+    
+    <div class="content-two">
+      <p>
+      <img src="fan.jpg" wid>
+      </p><br>
+		<p2><strong> RICHESS<br><br></strong></p2>
+		  <p>THIS IS OUR BEST ULTRAS EVER,<br>
+		  HAVE OVER 3 MILLION FANS,<br>
+			KNOWN AS "THE GHOST" BECAUSE OF THEIR LOUD CHEERS<br><br><br></p></div>
+        
+    <div class="content-three">
+      <p>
+      <img src="stadd.jpg" wid>
+      </p><br>
+		<p2><strong> ADDRESS <br><br></strong></p2>
+		  <p>Avda. de Concha Espina 1,
+		  28036; Madrid - España<br></p>
+		</div>----->
+    </div>
+
+	
+	<div class="tittle">
+		<h2>TO <BR><br><br></h2>
+		<h3>TO <BR><br><br></h3>
+		<h2>OUR STADIUM</h2>
+		<h3>OUR STADIUM</h3>
+	</div>
+	
+    
+    <div class="slideshow-container">
+			<div class="mySlides fade">
+			  <img src="change.png" style="width:100%">
+			  <div class="text">CHANGING ROOM</div>
+			</div>
+
+			<div class="mySlides fade">
+			  <img src="cafe.jpg" style="width:100%">
+			  <div class="text">STADIUM CAFE</div>
+			</div>
+
+			<div class="mySlides fade">
+			  <img src="stadium2.jpg" style="width:100%">
+			  <div class="text">STADIUM VIEW FROM THE TOP</div>
+			</div>
+
+			<div class="mySlides fade">
+			  <img src="change2.jpg" style="width:100%">
+			  <div class="text">CHANGING ROOM AWAY</div>
+			</div>
+			
+			<div class="mySlides fade">
+			  <img src="health.jpg" style="width:100%">
+			  <div class="text">HEALTHCARE SECTION</div>
+			</div>
+		
+			<div class="mySlides fade">
+			  <img src="swim.jpg" style="width:100%">
+			  <div class="text">STADIUM POOL</div>
+			</div>
+
+			<a class="prev" onclick="plusSlides(-1)">❮</a>
+			<a class="next" onclick="plusSlides(1)">❯</a>
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+  <span class="dot" onclick="currentSlide(5)"></span>
+  <span class="dot" onclick="currentSlide(6)"></span>
+</div>
+     
+    </div>
+        
+<!----------------This is the start of the foooter for HOME page------>
+<footer class="fixed_footer">
+  <div class="content">
+       <a href="https://ted-lasso.fandom.com/wiki/Dubai_Air">
+      <img src="dubair.png" width="240px" alt="dubair logo" height="60px" margin-right="20px"></a>
+      <a href="https://ted-lasso.fandom.com/wiki/Bantr">
+      <img src="bantr.png" width="240px" alt="bantr logo" height="80px"></a>
+  </div>
+
+  <div class="footertext">
+    <p>This is the fan page of the AFC RICHMOND<br>Please support us if you likes what you see :)<br>We'll update the newest content from time to time.<br>Copyright website developed by students in UIA Gombak.</p>
+  </div>
+    </footer>
+</body>
+<script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+</html>

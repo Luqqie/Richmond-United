@@ -1,0 +1,150 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Project</title>
+<link rel="stylesheet" href="transferpage.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>   
+<img src="AFCRICHMOND.png" height="100px" width="100px ">
+</head>
+
+<body>
+    
+<script>
+    $(document).ready(function(){
+  $("#bttn1").click(function(){
+    $("body").css("background-color","#f2ebd4");
+  });
+  $("#bttn").click(function(){
+    $("body").css("background-color", "#1F1F1E");
+  });
+});
+</script>
+    
+          
+<div class="navbar">
+    <div class="topnav-left">
+  <a href="index.html">HOME</a>
+  
+  <div class="dropdown">
+    <button class="dropbtn">LATEST 
+      <i class="fa fa-caret-down"></i>
+    </button>
+      <div>
+            
+</div>
+    <div class="dropdown-content">
+      <a href="result.html">RESULT</a>
+      <a href="transfer.html">TRANSFER</a>
+    </div>
+  </div> 
+    </div>
+    <div class="topnav-right">
+    <div class="dropdown">
+    <button class="dropbtn">OUR TEAM 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="player.html">PLAYER</a>
+      <a href="gallery.html">GALLERY</a>
+        <a href="statistic.html">STATISTIC</a>
+        <a href="stadium.html">STADIUM</a>
+    </div>
+  </div>
+    
+    <div class="dropdown">
+    <button class="dropbtn">ABOUT
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="Feedback.html">FEEDBACK</a>
+      <a href="ContactUs.html">CONTACT US</a>
+        <a href="Help and FAQs.html">HELP AND FAQs</a>
+    </div>
+  </div>
+        
+</div>
+    
+    </div>  
+    <div class="darkmode">
+            <button id="bttn">
+                <img src="moon.png" alt="buttondarkmode" width="25px" height="25px    ">
+            </button>
+        <button id="bttn1">
+                <img src="sun.png" alt="buttondarkmode" width="25px" height="25px    ">
+            </button>
+        </div>
+<!----------------This is the start of the content for Transfer page------>
+  
+<div class="firstcontent">
+  <br>
+ 
+  <div class="transferlist">
+    <p ><strong>Summer Transfer 2022/2023</p></strong>
+    
+</div>
+
+</div>
+    <section class="flexible">
+            <div class="transfer-name">
+                <h3>TRANSFER IN AND OUT</h3>
+                <div class="fixtures">
+                    <div class="transfer">
+                        <h4  class="status">$ 30 M</h4>
+                        <p>   <strong>IN | Jamie Tart</strong><br><br>&nbsp&nbsp&nbsp&nbsp&nbspManchester City to AFC Richmond</p>
+                    </div>
+                    <hr>
+                    <div  class="transfer">
+                        <h4 id="red-color" class="status">$ 35 M</h4>
+                        <p>  <strong>OUT | Casemiro</strong><br><br>AFC Richmond to Manchester United</p>
+                    </div>
+                    <hr>
+                    <div class="transfer">
+                        <h4 class="status">$ 13 M</h4>
+                        <p><strong>IN | Dani Rojas</strong><br><br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspAtlanta United to AFC Richmond</p>
+                    </div>
+                    <hr>
+                    <div class="transfer">
+                        <h4 class="status">$ 9.5 M</h4>
+                        <p><strong>IN | Andreas Inesta</strong><br><br>&nbsp&nbsp&nbsp&nbspManchester City to AFC Richmond</p>
+                    </div>
+                    <hr>
+                    <div  class="transfer">
+                        <h4 id="red-color" class="status">$ 10 M</h4>
+                        <p>  <strong>OUT | Tom Heaton</strong><br><br>AFC Richmond to Manchester United<br>&nbsp</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+<!----------------This is the start of the foooter for every page------>
+<footer class="fixed_footer">
+  <div class="content">
+       <a href="https://ted-lasso.fandom.com/wiki/Dubai_Air">
+      <img src="dubair.png" width="240px" alt="dubair logo" height="60px" margin-right="20px"></a>
+      <a href="https://ted-lasso.fandom.com/wiki/Bantr">
+      <img src="bantr.png" width="240px" alt="bantr logo" height="80px"></a>
+  </div>
+
+  <div class="footertext">
+    <p>This is the fan page of the AFC RICHMOND<br>Please support us if you likes what you see :)<br>We'll update the newest content from time to time.<br>Copyright website developed by students in UIA Gombak.</p>
+  </div>
+    </footer>
+</body>
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 3500); // Change image every 2 seconds
+}
+</script>
+</html>

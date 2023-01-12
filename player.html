@@ -1,0 +1,309 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Project</title>
+<link rel="stylesheet" href="player.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<img src="AFCRICHMOND.png" height="100px" width="100px ">
+<style>
+	p1{font-size: 30px; color:antiquewhite}
+	p3{color:antiquewhite}
+	p{color:antiquewhite}
+	p4{font-size: 50px; color:antiquewhite}
+	h1{color: #091052}
+	</style>
+</head>
+
+<body>
+
+<script>
+    $(document).ready(function(){
+  $("#bttn1").click(function(){
+    $("body").css("background-color","#f2ebd4");
+  });
+  $("#bttn").click(function(){
+    $("body").css("background-color", "#1F1F1E");
+  });
+});
+</script>
+
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+
+          
+<div class="navbar">
+    <div class="topnav-left">
+  <a href="index.html">HOME</a>
+  
+  <div class="dropdown">
+    <button class="dropbtn">LATEST 
+      <i class="fa fa-caret-down"></i>
+    </button>
+      <div>
+            
+</div>
+    <div class="dropdown-content">
+      <a href="result.html">RESULT</a>
+      <a href="transfer.html">TRANSFER</a>
+    </div>
+  </div> 
+    </div>
+    <div class="topnav-right">
+    <div class="dropdown">
+    <button class="dropbtn">OUR TEAM 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="player.html">PLAYER</a>
+      <a href="gallery.html">GALLERY</a>
+        <a href="statistic.html">STATISTIC</a>
+        <a href="stadium.html">STADIUM</a>
+    </div>
+  </div>
+    
+    <div class="dropdown">
+    <button class="dropbtn">ABOUT
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="Feedback.html">FEEDBACK</a>
+      <a href="ContactUs.html">CONTACT US</a>
+        <a href="Help and FAQs.html">HELP AND FAQs</a>
+    </div>
+  </div>
+        
+</div>
+    
+    </div>  
+    <div class="darkmode">
+            <button id="bttn">
+                <img src="moon.png" alt="buttondarkmode" width="25px" height="25px    ">
+            </button>
+        <button id="bttn1">
+                <img src="sun.png" alt="buttondarkmode" width="25px" height="25px    ">
+            </button>
+        </div>
+<!----------------This is the start of the content for HOME page------>
+    <br><br><br><br>
+	<div class="bc"> <strong>PLAYER</strong></div>
+
+<section id="clubs">
+            <div class="clubs-header">
+                <h2><br><br><br><br><br></h2>
+            </div>
+            <div class="clubs">
+                <div class="club">
+                  <h3>JAMIE TARTT</h3>
+                    <img class="club-logo"
+                        src="images/jamic.jpg"
+                        alt="">
+                      <h4><br>HEIGHT&nbsp&nbsp&nbsp&nbsp&nbsp   179 CM<br>
+						  WEIGHT&nbsp&nbsp&nbsp&nbsp  87 KG<br>
+						  NUMBER&nbsp&nbsp&nbsp&nbsp   8<br><br>
+						  OVERAL RATING:<br><br><p1>90</p1></h4>
+                </div>
+                <div class="club">
+                  <h3>ARLO DIXON</h3>
+                    <img class="club-logo"
+                        src="images/arloc.jpg"
+                        alt="">
+                    <h4><br>HEIGHT&nbsp&nbsp&nbsp&nbsp&nbsp   190 CM<br>
+						  WEIGHT&nbsp&nbsp&nbsp&nbsp  70 KG<br>
+						  NUMBER&nbsp&nbsp&nbsp&nbsp   19<br><br>
+						  OVERAL RATING:<br><br><p1>87</p1></h4>
+                </div>
+                <div class="club">
+                  <h3>SAM OBISANYA</h3>
+                    <img class="club-logo"
+                        src="images/sam.jpg"
+                        alt="">
+                    <h4><br>HEIGHT&nbsp&nbsp&nbsp&nbsp&nbsp   185 CM<br>
+						  WEIGHT&nbsp&nbsp&nbsp&nbsp  79 KG<br>
+						  NUMBER&nbsp&nbsp&nbsp&nbsp   10<br><br>
+						  OVERAL RATING:<br><br><p1>91</p1></h4>
+                </div>
+                <div class="club">
+                  <h3>0'BRIEN ANTONI</h3>
+                    <img class="club-logo"
+                        src="images/obrienc.jpg"
+                        alt="">
+                    <h4><br>HEIGHT&nbsp&nbsp&nbsp&nbsp&nbsp   171 CM<br>
+						  WEIGHT&nbsp&nbsp&nbsp&nbsp  69 KG<br>
+						  NUMBER&nbsp&nbsp&nbsp&nbsp   14<br><br>
+						  OVERAL RATING:<br><br><p1>86</p1></h4>
+                </div>
+                <div class="club">
+                  <h3>TYLER SHANNON </h3>
+                    <img class="club-logo"
+                        src="images/tylerc.jpg"
+                        alt="">
+                    <h4><br>HEIGHT&nbsp&nbsp&nbsp&nbsp&nbsp   187 CM<br>
+						  WEIGHT&nbsp&nbsp&nbsp&nbsp  70 KG<br>
+						  NUMBER&nbsp&nbsp&nbsp&nbsp   18<br><br>
+						  OVERAL RATING:<br><br><p1>84</p1></h4>
+                </div>
+                <div class="club">
+                  <h3>COLLIN HUGHES</h3>
+                    <img class="club-logo"
+                        src="images/collin.jpg"
+                        alt="">
+                    <h4><br>HEIGHT&nbsp&nbsp&nbsp&nbsp&nbsp   192 CM<br>
+						  WEIGHT&nbsp&nbsp&nbsp&nbsp  82 KG<br>
+						  NUMBER&nbsp&nbsp&nbsp&nbsp   3<br><br>
+						  OVERAL RATING:<br><br><p1>83</p1></h4>
+                </div>
+                <div class="club">
+                  <h3>JAN MAAS</h3>
+                    <img class="club-logo"
+                        src="images/janc.jpg"
+                        alt="">
+                    <h4><br>HEIGHT&nbsp&nbsp&nbsp&nbsp&nbsp   177 CM<br>
+						  WEIGHT&nbsp&nbsp&nbsp&nbsp  71 KG<br>
+						  NUMBER&nbsp&nbsp&nbsp&nbsp   5<br><br>
+						  OVERAL RATING:<br><br><p1>84</p1></h4>
+                </div>
+                <div class="club">
+                  <h3>TOMMY WINCHESTER  </h3>
+                    <img class="club-logo"
+                        src="images/tom.jpg"
+                        alt="">
+                    <h4><br>HEIGHT&nbsp&nbsp&nbsp&nbsp&nbsp   184 CM<br>
+						  WEIGHT&nbsp&nbsp&nbsp&nbsp  68 KG<br>
+						  NUMBER&nbsp&nbsp&nbsp&nbsp   13<br><br>
+						  OVERAL RATING:<br><br><p1>88</p1></h4>
+                </div>
+                <div class="club">
+                  <h3>THIERRY ZOREAUX</h3>
+                    <img class="club-logo"
+                        src="images/thierryc.jpg"
+                        alt="">
+                    <h4><br>HEIGHT&nbsp&nbsp&nbsp&nbsp&nbsp   179 CM<br>
+						  WEIGHT&nbsp&nbsp&nbsp&nbsp  67 KG<br>
+						  NUMBER&nbsp&nbsp&nbsp&nbsp   88<br><br>
+						  OVERAL RATING:<br><br><p1>82</p1></h4>
+                </div>
+                <div class="club">
+                  <h3>ROY KENT</h3>
+                    <img class="club-logo"
+                        src="images/royk.jpg"
+                        alt="">
+                    <h4><br>HEIGHT&nbsp&nbsp&nbsp&nbsp&nbsp   180 CM<br>
+						  WEIGHT&nbsp&nbsp&nbsp&nbsp  89 KG<br>
+						  NUMBER&nbsp&nbsp&nbsp&nbsp   6<br><br>
+						  OVERAL RATING:<br><br><p1>88</p1></h4>
+                </div>
+                <div class="club">
+                  <h3>DANI ROJAS</h3>
+                    <img class="club-logo"
+                        src="images/danic.jpg"
+                        alt="">
+                    <h4><br>HEIGHT&nbsp&nbsp&nbsp&nbsp&nbsp   186 CM<br>
+						  WEIGHT&nbsp&nbsp&nbsp&nbsp  74 KG<br>
+						  NUMBER&nbsp&nbsp&nbsp&nbsp   9<br><br>
+						  OVERAL RATING:<br><br><p1>93</p1></h4>
+                </div>
+                <div class="club">
+                  <h3>JEFF GOODMAN</h3>
+                    <img class="club-logo"
+                        src="images/good.jpg"
+                        alt="">
+                    <h4><br>HEIGHT&nbsp&nbsp&nbsp&nbsp&nbsp   181 CM<br>
+						  WEIGHT&nbsp&nbsp&nbsp&nbsp  75 KG<br>
+						  NUMBER&nbsp&nbsp&nbsp&nbsp   7<br><br>
+						  OVERAL RATING:<br><br><p1>89</p1></h4>
+                </div>
+				<div class="club">
+                  <h3>JEFF GOODMAN</h3>
+                    <img class="club-logo"
+                        src="images/good.jpg"
+                        alt="">
+                    <h4><br>HEIGHT&nbsp&nbsp&nbsp&nbsp&nbsp   180 CM<br>
+						  WEIGHT&nbsp&nbsp&nbsp&nbsp  74 KG<br>
+						  NUMBER&nbsp&nbsp&nbsp&nbsp   28<br><br>
+						  OVERAL RATING:<br><br><p1>80</p1></h4>
+                </div>
+				<div class="club">
+                  <h3>PAUL REYNOLDS</h3>
+                    <img class="club-logo"
+                        src="images/paul.jpg"
+                        alt="">
+                    <h4><br>HEIGHT&nbsp&nbsp&nbsp&nbsp&nbsp   173 CM<br>
+						  WEIGHT&nbsp&nbsp&nbsp&nbsp  71 KG<br>
+						  NUMBER&nbsp&nbsp&nbsp&nbsp   15<br><br>
+						  OVERAL RATING:<br><br><p1>83</p1></h4>
+                </div>
+				<div class="club">
+                  <h3>JACK DAWKINS</h3>
+                    <img class="club-logo"
+                        src="images/jackc.jpg"
+                        alt="">
+                    <h4><br>HEIGHT&nbsp&nbsp&nbsp&nbsp&nbsp   165CM<br>
+						  WEIGHT&nbsp&nbsp&nbsp&nbsp  69 KG<br>
+						  NUMBER&nbsp&nbsp&nbsp&nbsp   19<br><br>
+						  OVERAL RATING:<br><br><p1>79</p1></h4>
+                </div>
+				<div class="club">
+                  <h3>TED LASSO</h3>
+                    <img class="club-logo"
+                        src="images/tedc.jpg"
+                        alt="">
+                    <h4><br>HEIGHT&nbsp&nbsp&nbsp&nbsp&nbsp   186 CM<br>
+						  WEIGHT&nbsp&nbsp&nbsp&nbsp  97 KG<br>
+						  NUMBER&nbsp&nbsp&nbsp&nbsp   0<br><br>
+						  OVERAL RATING:<br><br><p1>99</p1></h4>
+                </div>
+            </div>
+        </section>
+
+    
+   
+
+
+        
+<!----------------This is the start of the foooter for HOME page------>
+<footer class="fixed_footer">
+  <div class="content">
+       <a href="https://ted-lasso.fandom.com/wiki/Dubai_Air">
+      <img src="dubair.png" width="240px" alt="dubair logo" height="60px" margin-right="20px"></a>
+      <a href="https://ted-lasso.fandom.com/wiki/Bantr">
+      <img src="bantr.png" width="240px" alt="bantr logo" height="80px"></a>
+  </div>
+
+  <div class="footertext">
+    <p>This is the fan page of the AFC RICHMOND<br>Please support us if you likes what you see :)<br>We'll update the newest content from time to time.<br>Copyright website developed by students in UIA Gombak.</p>
+  </div>
+    </footer>
+</body>
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 3500); // Change image every 2 seconds
+}
+</script>
+</html>
